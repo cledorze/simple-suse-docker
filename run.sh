@@ -9,4 +9,4 @@ fi
 #source /etc/apache2/envvars
 a2enmod rewrite
 a2enmod mod_php5 
-CMD /usr/sbin/start_apache2 && tail -f /var/log/apache2/*log
+/usr/sbin/start_apache2 && tail -f /var/log/apache2/*log
