@@ -20,5 +20,5 @@ ADD run.sh /run.sh
 COPY /webapp/* /srv/www/htdocs/
 
 ########### DEV #################
-CMD /run.sh
+CMD sh /run.sh
 CMD /usr/sbin/httpd2-prefork && tail -f /var/log/apache2/*log
