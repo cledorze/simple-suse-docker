@@ -21,7 +21,4 @@ COPY /webapp/* /srv/www/htdocs/
 
 ########### DEV #################
 #CMD /usr/sbin/httpd2-prefork && tail -f /var/log/apache2/*log
-CMD a2enmod rewrite
-CMD a2enmod mod_php5
-CMD /usr/sbin/start_apache2 && tail -f /var/log/apache2/*log
-#CMD /run.sh
+CMD /run.sh
