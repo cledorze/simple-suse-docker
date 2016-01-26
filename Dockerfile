@@ -17,7 +17,7 @@ RUN zypper clean
 RUN sed -i 's/variables_order = "GPCS"/variables_order = "EGPCS"/g' /etc/php5/apache2/php.ini
 ADD run.sh /run.sh
 #ADD apache2-sysconfig /etc/sysconfig/apache2
-COPY /webapp/* /srv/www/htdocs/
+COPY webapp /srv/www/htdocs
 
 ########### DEV #################
 CMD /bin/sh /run.sh
