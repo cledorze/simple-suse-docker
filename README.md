@@ -3,7 +3,6 @@ Simple Dockerfile - Apache - PHP
 
 Bienvenue au SUSE Expert Forum 2016
 
-Bla Bla Bla 
 
 # Presentation du Git
 
