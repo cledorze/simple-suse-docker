@@ -1,4 +1,4 @@
-FROM suse/sles12sp1:latest
+FROM suse/sles12:latest
 MAINTAINER cledorze <cledorze@suse.com>
 ADD http://sle11sp3-1.dorz.fr/smt.crt /etc/pki/trust/anchors/smt.crt
 RUN update-ca-certificates
